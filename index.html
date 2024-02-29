@@ -27,8 +27,8 @@
 </head>
 <!--Component 1-->
 
-<body class="bg-gray-100">
-  <div class="container  px-4 sm:px-6 lg:px-80 bg-white"> <!--Added small screen functionality-->
+<body class="bg-grey-100">
+  <div class="container px-4 sm:px-6 lg:px-80 bg-white"> <!--Container eith padding adjustments for different screen sizes-->
     <nav
       class="relative flex flex-wrap items-center justify-between w-full shrink-0 py-7"
     >
@@ -36,38 +36,35 @@
         <!--Logo-->
         <img
           class="h-8"
-          src="assets/component-1/navigation/cache-bank-logo.png"
+          src="assets/component-1/navigation/cache-bank-logo.png "
         />
       </div>
-        <!--Nav bar-->
+        <!--Navigation links for medium and larger sreens-->
       <div
         class="hidden md:flex items-center justify-between gap-12 text-black"
       >
         <a
-          href="javascript:void(0)"
+          href="#product"
           class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
           >Product</a
         >
         <a
-          href="javascript:void(0)"
+          href="#features"
           class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
           >Features</a
         >
         <a
-          href="javascript:void(0)"
+          href="#getting-started"
           class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
           >Get Started</a
         >
         <a
-          href="javascript:void(0)"
+          href="#contact"
           class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
           >Contact</a
         >
       </div>
-      <div
-        class="hidden md:flex items:center justify-between gap-12 text-black"
-      ></div>
-
+        <!--Login and Sign Up buttons for medium and larger screens-->
       <div class="hidden md:flex items-center gap-8">
         <button
           class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900"
@@ -80,7 +77,7 @@
           Sign Up
         </button>
       </div>
-
+      <!--Mobile menu toggle button-->
       <button class="md:hidden p-4" id="mobile-menu-toggle">
         <svg
           fill="none"
@@ -112,28 +109,30 @@
       <div
         class="absolute hidden flex md:flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-4"
         id="mobile-menu"
-      >
+      > 
+       <!--Hidden flex component to keep the hamburger closed on small screens-->
+       <!--Mobile navigation links-->
         <a
-          href=""
+          href="#product"
           class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
           >Product</a
         >
         <a
-          href=""
+          href="#features"
           class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
           >Features</a
         >
         <a
-          href=""
+          href="#getting-started"
           class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
           >Get Started</a
         >
         <a
-          href="javascript:void(0)"
+          href="#contact"
           class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
           >Contact</a
         >
-
+         <!--Mobile login and sign up buttons-->
         <button class="text-sm font-bold text-dark-grey-900 hover:text-black">
           Log In
         </button>
@@ -149,9 +148,9 @@
     <!--Hero-->
     <section
       class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl-gap-14 md:gap-5 px-20"
-    >
+    > <!--Hero section with grid layout and column settings-->
       <div
-        class="flex flex-col justify-center col-span-1 text-center lg:text-start"
+        class="flex flex-col justify-center col-span-1 text-center lg:text-start" id="product"
       >
         <h1
           class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900"
@@ -164,6 +163,7 @@
           Our services offer cutting-edge financial solutions that help you take
           care of your cash.
         </p>
+        <!--Call to action buttons-->
         <div class="flex flex-col items-center gap-4 lg:flex-row">
           <button
             class="flex items-center py-4 text-sm font-bold text-white px-7 focus:ring-4 focus:ring-purple-blue-100 transition duration-300 rounded-xl bg-green-500 hover:bg-pink-500"
@@ -177,6 +177,7 @@
           </button>
         </div>
       </div>
+      <!--Image for larger screens-->
       <div class="items-center justify-end hidden col-span-1 md:flex">
         <img
           class="w-4/5 rounded-e-md"
@@ -185,6 +186,7 @@
         />
       </div>
     </section>
+    <!--Endorsement section-->
 
     <section class="w-full">
       <div class="container flex flex-col items-center gap-8 mx-auto my-40">
@@ -269,7 +271,7 @@
 
     <!--Features-->
     <div
-      class="container mx-auto py-10 flex flex-col items-center justify-center"
+      class="container mx-auto py-10 flex flex-col items-center justify-center" id="features"
     >
       <!--Header section-->
       <div class="flex flex-col items-center justify-center mt-12">
@@ -543,8 +545,10 @@
 
       <!--Getting started-->
 
-      <div class="container flex flex-col items-center gap-16 mx-auto my-32">
+      <div class="container flex flex-col items-center gap-16 mx-auto my-32" id="getting-started">
+        <!--Two-column grid layout for desktop screens-->
         <div class="grid w-full grid-cols-1 gap-32 lg:grid-cols-2">
+            <!--Image section, displayed only on large screens-->
           <div
             class="bg-cover bg-center hidden lg:block rounded-3xl"
             style="
@@ -574,10 +578,11 @@
                 process, making banking accessible and hassle-free for delopers.
               </p>
             </div>
+            <!--Steps section-->
             <div
               class="grid w-full grid-cols-1 md:grid-cols-2 gap-y-16 gap-x-10"
             >
-              <!--Card 1-->
+              <!--Step 1-->
               <div class="flex flex-col items-start gap-1">
                 <div
                   class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-green-500"
@@ -667,7 +672,7 @@
                 </p>
               </div>
 
-              <!--Card 2-->
+              <!--Step 2-->
               <div class="flex flex-col items-start gap-1">
                 <div
                   class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-pink-500"
@@ -757,7 +762,7 @@
                 </p>
               </div>
 
-              <!--Card 3-->
+              <!--Step 3-->
               <div class="flex flex-col items-start gap-1">
                 <div
                   class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-pink-500"
@@ -848,7 +853,7 @@
                 </p>
               </div>
 
-              <!--Card 4-->
+              <!--Step 4-->
               <div class="flex flex-col items-start gap-1">
                 <div
                   class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-green-500"
@@ -941,10 +946,10 @@
             </div>
           </div>
         </div>
+        
         <!--Contact and Footer-->
-
         <!--Contact-->
-        <div class="w-full">
+        <div class="w-full" id="contact">
           <!--Grid container-->
           <div class="container flex flex-col gap-16 mx-auto my-32">
             <!--Card list-->
@@ -954,7 +959,8 @@
               <!--Card 1-->
               <div
                 class="flex-col intems-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main"
-              >
+              > 
+              <!--Email icon SVG-->
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -985,6 +991,7 @@
               <div
                 class="flex-col intems-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main"
               >
+              <!--Location icon SVG-->
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -1049,7 +1056,6 @@
   </div>
 
   <!--Footer-->
-
   <div class="w-full bg-green-500">
     <div class="container flex flex-col mx-auto">
       <div class="flex flex-col items-center w-full my-20">
@@ -1216,7 +1222,7 @@
       </div>
     </div>
   </div>
-  <script>
+  <script> //Added the Javascript for the functionality of the nav bar//
     document
       .getElementById("mobile-menu-toggle")
       .addEventListener("click", function () {
