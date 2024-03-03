@@ -27,7 +27,9 @@ I had a lot of syntext errors.
 ### Areas for Improvement
 
 **Advanced CSS Properties**: I want to explore more advanced CSS properties and animations to enhance the user experience.
+
 **Code Optimization**: While my code achieved the desired outcome, I believe I can improve its efficiency and readability.
+
 **JavaScript**: I still need to practice Javascript to Understand it better.
 
 ## Overall Learning Experience
