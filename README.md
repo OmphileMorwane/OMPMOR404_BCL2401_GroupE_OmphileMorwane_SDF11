@@ -9,9 +9,11 @@ In this project, I developed a landing page for a bank website, focusing on HTML
 ### Areas of Mastery
 
 **HTML Structure**: I effectively structured the HTML elements to create a coherent layout for the bank website landing page. This included organizing sections such as navigation, features, getting started, contact and footer section.
+
 **CSS Styling**: I applied CSS styling techniques to enhance the visual appeal of the landing page, including color schemes, typography, and layout design.
 
 **CSS Layout Techniques**: I feel confident in using Flexbox and Grid to structure web page elements. Implementing these techniques to align and distribute content was a highlight of my learning.
+
 **Responsive Design**: I successfully implemented media queries to ensure the page looks good on both desktop and mobile screens.
 
 **JavaScript Functionality**: I implemented JavaScript features, such as responsive navigation, to improve user experience and interaction on the website.
