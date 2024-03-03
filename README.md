@@ -13,17 +13,20 @@ In this project, I developed a landing page for a bank website, focusing on HTML
 
 **CSS Layout Techniques**: I feel confident in using Flexbox and Grid to structure web page elements. Implementing these techniques to align and distribute content was a highlight of my learning.
 **Responsive Design**: I successfully implemented media queries to ensure the page looks good on both desktop and mobile screens.
-**Styling Elements**: I was able to style the profile image, user information, and gallery section effectively, closely resembling an Instagram profile.
 
-### Challenges Faced
+**JavaScript Functionality**: I implemented JavaScript features, such as responsive navigation, to improve user experience and interaction on the website.
 
-**JavaScript Functionality**: I implemented JavaScript features, such as form validation and responsive navigation, to improve user experience and interaction on the website.
+### Challenges Faced :
+
+Adding fonts and making the hamburger functional was a bit of a challenge, but I manged to find a solution in the end.
+
+I had a lot of syntext errors.
 
 ### Areas for Improvement
 
 **Advanced CSS Properties**: I want to explore more advanced CSS properties and animations to enhance the user experience.
 **Code Optimization**: While my code achieved the desired outcome, I believe I can improve its efficiency and readability.
-**JavaScript**: I still need to practice Javascript to Understand in better.
+**JavaScript**: I still need to practice Javascript to Understand it better.
 
 ## Overall Learning Experience
 
